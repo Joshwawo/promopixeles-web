@@ -25,7 +25,7 @@ const DropDown = () => {
           Cashless
         </NavLink>
         <NavLink
-          to="/contacto"
+          to="/productos&servicios"
           onClick={handleClose}
           className={({ isActive }) => (isActive ? "text-red-400" : "")}
         >
