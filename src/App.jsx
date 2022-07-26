@@ -21,9 +21,9 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePage/>} />
             <Route path='/productos&servicios' element={<ProductosYservicios/>} />
-            <Route path='/contacto' element={<Contacto/>}/>
             <Route path='/codikash' element={<Codikash/>}/>
             <Route path='/cashless' element={<Cashless/>} />
+            <Route path='/contacto' element={<Contacto/>}/>
             <Route path='*' element={<Error404/>} />
 
           </Routes>

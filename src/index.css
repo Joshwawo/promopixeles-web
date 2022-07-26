@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 
+}
 @layer base {
     li {
       @apply p-5 hover:text-red-300;
@@ -14,7 +19,24 @@
       margin: 0 auto;
   }
   }
-   
+  
+.monserrat-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}  
+.monserrat-light {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+.monserrat-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.monserrat-semibold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
 .text-3rem {
   font-size: 3rem;
 

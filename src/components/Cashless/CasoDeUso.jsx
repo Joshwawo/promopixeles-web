@@ -2,7 +2,8 @@ import  casodeuso  from "../../img/Cashless/recopilacion-de-datos.webp";
 
 const CasoDeUso = () => {
   return (
-    <div className="w-full">
+    <div className="w-full container-95">
+      <p className=" monserrat-bold text-center text-2xl">Caso de usos</p>
       <img src={casodeuso} alt="Caso de uso" className="w-full" />
       <div className="items flex justify-around gap-2">
        <p>Usuario se registra</p>

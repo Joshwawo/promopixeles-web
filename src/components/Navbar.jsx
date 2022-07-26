@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="w-screen h-[80px] z-10 bg-white fixed drop-shadow-lg">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <NavLink to="/">
-          <img src={logo} alt="Logo Promopixeles" />
+          <img src={logo} alt="Logo Promopixeles"  className="w-20" />
         </NavLink>
         <div className="flex items-center ">
           <ul className="hidden md:flex">
