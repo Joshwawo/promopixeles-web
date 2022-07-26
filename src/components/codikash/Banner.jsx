@@ -16,12 +16,11 @@ const Banner = () => {
         </p>
         <div className="items  md:flex ">
           <div className="item1  ">
-            <img
+          <img
               src={log_ck}
               alt="logo Codikash"
               className="w-[60%] md:w-[70%] xl:w-[70%]"
             />
-
             <p className="text-white   md:w-[90%] xl:w-[80%]   mt-5">
               Aplicacion que ofrece una pltaforma donde podrás navegar y conocer
               tus puntos obtenidos durante tus operaciones con las marcas. una
@@ -47,8 +46,16 @@ const Banner = () => {
               </div>
             </div>
             <div className="flex gap-5  flex-row-reverse ">
-              <img src={capa13} alt="ios" className="w-[20%] " />
-              <img src={capa14} alt="android" className="w-[20%]" />
+              <div>
+                <a href="https://apps.apple.com/mx/app/codikash-clientes/id1577211896">
+                  <img src={capa13} alt="android" className="w-[100%]" />
+                </a>
+              </div>
+              <div>
+                <a href="https://play.google.com/store/apps/details?id=com.promopixeles.codikash_app">
+                  <img src={capa14} alt="ios" className="w-[100%] " />
+                </a>
+              </div>
             </div>
           </div>
         </div>
