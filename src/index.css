@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li {
+      @apply p-5 hover:text-red-300;
+    }
+  }
+  @media (min-width: 1280px) {
+    .container-80 {
+      max-width: 1400px;
+      width:80%;
+      margin: 0 auto;
+  }
+  }
+   
+.text-3rem {
+  font-size: 3rem;
+
+}
+.text-2rem {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.bg-bg{
+  background-image: url(https://media.discordapp.net/attachments/775393794186412073/997185060811845813/unknown.png?width=1314&height=604);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container-95{
+  width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+/* .container-70{
+  width: 1200px;
+  width: 70%;
+  margin: 0 auto;
+} */
+.rojito{
+  background-color: #aa1e22;
+}
+
+.rojitoNav{
+  color: #df1d24;
+}
+
+.oscuro{
+  color: #323232;
+}
+
+.amarillo{
+  background-color:  #e3c330;
+}
+
+.m0-auto{
+  margin: 0 auto;
+}
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0.375rem
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 0.375rem
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
