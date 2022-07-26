@@ -23,7 +23,7 @@ function App() {
             <Route path='/productos&servicios' element={<ProductosYservicios/>} />
             <Route path='/codikash' element={<Codikash/>}/>
             <Route path='/cashless' element={<Cashless/>} />
-            <Route path='/contacto' element={<Contacto/>}/>
+            <Route path='/contacto' element={<ProductosYservicios/>}/>
             <Route path='*' element={<Error404/>} />
 
           </Routes>

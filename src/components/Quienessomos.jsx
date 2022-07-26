@@ -6,7 +6,7 @@ import como4 from "../img/como4.png";
 
 const QuienesSomos = () => {
   return (
-    <div className="bg-red-300 py-24 ">
+    <div className="bg-red-400 py-14 ">
       <div className=" container mx-auto ">
         <div className=" ">
           <h2 className="font-bold text-2xl text-center md:text-start text-white">

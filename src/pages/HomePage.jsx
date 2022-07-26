@@ -12,7 +12,7 @@ const HomePage = () => {
         <Carrusel/>
         <Body/>
         <QuienesSomos/>
-        <EmpresaDesc/>
+        {/* <EmpresaDesc/> */}
     </div>
   )
 }

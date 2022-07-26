@@ -1,13 +1,11 @@
-import React from 'react'
 import Y from '../components/Y'
-import Codikash from './services/Codikash'
 
 const ProductosYservicios = () => {
   return (
     <div>
         {/* <Codikash/> */}
         <Y/>
-        <p>Hola desde producto y servicios</p>
+        <p className='text-center'>Hola desde otros</p>
     </div>
   )
 }

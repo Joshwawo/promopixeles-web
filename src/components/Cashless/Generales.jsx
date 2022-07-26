@@ -13,36 +13,36 @@ const Generales = () => {
         <div className="izquierda md:w-2/3 pt-12 md:pt-24">
           <p className="monserrat-bold text-center text-white text-3xl ">Funcionales Generales</p>
           <div className="items-icons   grid grid-cols-2 xl:grid-cols-3 gap-4 ">
-            <div className="img1 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:px-12 ">
+            <div className="img1 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
               <img src={beneficios} alt="Beneficios"  className="mx-auto"/>
               <p className="text-center">
                 Beneficios <br />
                 Sanitarios COVID
               </p>
             </div>
-            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:px-12 ">
+            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
               <img src={aumentoVentas} alt=" Aumento de ventas"  className="mx-auto"/>
               <p className="text-center">
                 Aumento de <br />
                 Ventas
               </p>
             </div>
-            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:px-12 ">
+            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
               <img src={Recompensas} alt="Recompensas"  className="mx-auto"/>
               <p className="text-center">Recompensas</p>
             </div>
-            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:px-12 ">
+            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
               <img src={historialDatos} alt="Historial de datos"  className="mx-auto"/>
               <p className="text-center">
                 Historico de <br />
                 datos
               </p>
             </div>
-            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:px-12 ">
+            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
               <img src={analiticas} alt="Analiticas"  className="mx-auto"/>
               <p className="text-center">Analiticas</p>
             </div>
-            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:px-12 ">
+            <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
               <img src={intelNegocios} alt="Inteligencia de negocios"  className="mx-auto"/>
               <p className="text-center">
                 Inteligencia <br /> de negocios
