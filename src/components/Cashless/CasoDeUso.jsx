@@ -1,4 +1,4 @@
-import  casodeuso  from "../../img/Cashless/casoDeUso.webp";
+import  casodeuso  from "../../img/Cashless/CasoDeUso.webp";
 
 const CasoDeUso = () => {
   return (
