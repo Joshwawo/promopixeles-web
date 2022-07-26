@@ -1,6 +1,7 @@
 import React from "react";
 import codikash from "../img/codikash.webp";
 import cashless from "../img/cashless.webp";
+import {NavLink} from 'react-router-dom'
 
 const Carrusel = () => {
   return (
@@ -13,9 +14,11 @@ const Carrusel = () => {
               <span className="text-white hover:text-white">❮</span>
             </a>
             <p className=" text-white text-2xl  absolute top-20 left-20">Codikash</p>
-              <button className="black text-white font-bold  border py-2   w-20 hover:bg-white hover:text-black absolute top-32 left-20">
-                Ver
-              </button>
+              <NavLink to="/codikash"> 
+                <button className="black text-white font-bold  border py-2   w-20 hover:bg-white hover:text-black absolute top-32 left-20">
+                  Ver
+                </button>
+              </NavLink>
             <a href="#slide2" className="btn btn-circle ">
               <span className="text-white">❯</span>
             </a>
@@ -28,9 +31,11 @@ const Carrusel = () => {
               <span className="text-white">❮</span>
             </a>
               <p className=" text-white text-2xl  absolute top-20 left-20">Cashless</p>
-              <button className="black text-white font-bold  border py-2   w-20 hover:bg-white hover:text-black absolute top-32 left-20">
-                Ver
-              </button>
+              <NavLink to="/cashless">
+                <button className="black text-white font-bold  border py-2   w-20 hover:bg-white hover:text-black absolute top-32 left-20">
+                  Ver
+                </button>
+              </NavLink>
             
 
             <a href="#slide1" className="btn btn-circle ">
