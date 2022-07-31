@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,6 +23,12 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+.monserrat-bold-italic {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 .monserrat-light {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
@@ -46,6 +52,26 @@
 
 .bg-bg {
   background-image: url(https://media.discordapp.net/attachments/775393794186412073/997185060811845813/unknown.png?width=1314&height=604);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-cashless {
+  background-image: url(./img/Cashless/Cashless-Fondo.webp);
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  background-size: cover;
+}
+.bg-cashless-5 {
+  background-image: url(./img/PYS/fondo-5.webp);
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  background-size: cover;
+}
+
+.bg-controlDAccesos {
+  background-image: url(./img/ControlDeAccesos/fondo.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

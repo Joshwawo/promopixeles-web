@@ -6,8 +6,8 @@ import como4 from "../img/como4.png";
 
 const QuienesSomos = () => {
   return (
-    <div className="bg-red-400 py-14 ">
-      <div className=" container mx-auto ">
+    <div className="rojito py-14 ">
+      <div className=" container-95 mx-auto ">
         <div className=" ">
           <h2 className="font-bold text-2xl text-center md:text-start text-white">
             ¿Como lo Hacemos?{" "}
@@ -21,7 +21,7 @@ const QuienesSomos = () => {
             </p>
           </div>
         </div>
-        <div className="cajita py-15 flex flex-col items-center md:flex-row md:justify-between text-white">
+        <div className=" grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 place-items-center ">
           <div className="md:py-20  py-5">
             <img className="px-7" src={como1} alt="Icono uno" />
             <p className="py-7 text-white">Agenda Digital</p>
@@ -33,11 +33,15 @@ const QuienesSomos = () => {
           </div>
           <div className="md:py-20  py-5 ">
             <img className="px-7" src={como3} alt="Icono tres" />
-            <p className="py-7 text-white">Impacto Financiero <br /> Positivo</p>
+            <p className="py-7 text-white">
+              Impacto Financiero <br /> Positivo
+            </p>
           </div>
           <div className="md:py-20  py-5">
             <img className="px-7" src={como4} alt="Icono cuatro" />
-            <p className="py-7 text-white">Transformacion de <br /> datos</p>
+            <p className="py-7 text-white">
+              Transformacion de <br /> datos
+            </p>
           </div>
         </div>
       </div>

@@ -37,20 +37,20 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="mb-6 text-sm text-center font-semibold text-gray-900 uppercase dark:text-white">
-              <span className="text-white">Siguenos en</span>
+              <span className="text-white">Formas de contacto</span>
             </h2>
             <ul className="text-white text-center">
               <li className="mb-4">
                 <a
-                  href="/"
+                  href="mailto:soporte@promopixeles.com"
                   className="hover:underline text-white"
                 >
-                  Twitter
+                  soporte@promopixeles.com
                 </a>
               </li>
               <li>
-                <a href="/" className="hover:underline text-white">
-                  Facebook
+                <a href="/" className="hover:underline text-white hidden">
+                  
                 </a>
               </li>
             </ul>

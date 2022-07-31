@@ -64,7 +64,7 @@ const Navbar = () => {
             <div className="dropdown-content">
               <NavLink to="/codikash" onClick={handleClose} className={({ isActive }) => (isActive ? "text-red-400" : "")}>Codikash</NavLink>
               <NavLink to="/cashless" onClick={handleClose} className={({ isActive }) => (isActive ? "text-red-400" : "")}>Cashless</NavLink>
-              <NavLink to="/productos&servicios" onClick={handleClose} className={({ isActive }) => (isActive ? "text-red-400" : "")}>Otros</NavLink>
+              <NavLink to="/gestionacceso" onClick={handleClose} className={({ isActive }) => (isActive ? "text-red-400" : "")}>Gestion de accesos</NavLink>
             </div>
           </div>
         </li>

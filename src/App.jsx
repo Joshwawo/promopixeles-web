@@ -9,6 +9,7 @@ import ProductosYservicios from './pages/ProductosYservicios'
 import Error404 from './pages/Error404'
 import Codikash from './pages/services/Codikash'
 import Cashless from './pages/services/Cashless'
+import GestionDeAccesos from './pages/services/GestionDeAccesos'
 
 function App() {
 
@@ -23,12 +24,13 @@ function App() {
             <Route path='/productos&servicios' element={<ProductosYservicios/>} />
             <Route path='/codikash' element={<Codikash/>}/>
             <Route path='/cashless' element={<Cashless/>} />
+            <Route path='/gestionacceso' element={<GestionDeAccesos/>}/>
             <Route path='/contacto' element={<Contacto/>}/>
             <Route path='*' element={<Error404/>} />
 
           </Routes>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
 
       </BrowserRouter>
       

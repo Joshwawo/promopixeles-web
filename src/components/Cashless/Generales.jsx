@@ -8,42 +8,56 @@ import celGrande from "../../img/Cashless/Capa_27.webp";
 import celChikito from "../../img/Cashless/Capa_28.webp";
 const Generales = () => {
   return (
-    <div className="bg-[#069D57] ">
-      <div className="items md:flex container-95">
-        <div className="izquierda md:w-2/3 pt-12 md:pt-24">
-          <p className="monserrat-bold text-center text-white text-3xl ">Funcionales Generales</p>
-          <div className="items-icons   grid grid-cols-2 xl:grid-cols-3 gap-4 ">
+    <div className="bg-[#069D57] pb-24">
+      <div className="items xl:flex ">
+        <div className="izquierda md:w-2/3 pt-12 md:pt-24 mx-auto">
+          <p className="monserrat-bold text-center text-white text-3xl ">
+            Funcionales Generales
+          </p>
+          <div className="items-icons grid grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-0 xl:place-items-center mb-10 ">
             <div className="img1 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
-              <img src={beneficios} alt="Beneficios"  className="mx-auto"/>
+              <img src={beneficios} alt="Beneficios" className="mx-auto" />
               <p className="text-center">
                 Beneficios <br />
                 Sanitarios COVID
               </p>
             </div>
             <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
-              <img src={aumentoVentas} alt=" Aumento de ventas"  className="mx-auto"/>
+              <img
+                src={aumentoVentas}
+                alt=" Aumento de ventas"
+                className="mx-auto"
+              />
               <p className="text-center">
                 Aumento de <br />
                 Ventas
               </p>
             </div>
             <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
-              <img src={Recompensas} alt="Recompensas"  className="mx-auto"/>
+              <img src={Recompensas} alt="Recompensas" className="mx-auto" />
               <p className="text-center">Recompensas</p>
             </div>
             <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
-              <img src={historialDatos} alt="Historial de datos"  className="mx-auto"/>
+              <img
+                src={historialDatos}
+                alt="Historial de datos"
+                className="mx-auto"
+              />
               <p className="text-center">
                 Historico de <br />
                 datos
               </p>
             </div>
             <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
-              <img src={analiticas} alt="Analiticas"  className="mx-auto"/>
+              <img src={analiticas} alt="Analiticas" className="mx-auto" />
               <p className="text-center">Analiticas</p>
             </div>
             <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
-              <img src={intelNegocios} alt="Inteligencia de negocios"  className="mx-auto"/>
+              <img
+                src={intelNegocios}
+                alt="Inteligencia de negocios"
+                className="mx-auto"
+              />
               <p className="text-center">
                 Inteligencia <br /> de negocios
               </p>
@@ -51,8 +65,16 @@ const Generales = () => {
           </div>
         </div>
         <div className="derecha flex">
-          <img src={celGrande} alt="Celular Grande" className=" mx-auto md:w-[90%] md:h-[70%] md:mt-44 xl:w-[75%] xl:mt-32 xl:h-[80%] " />
-          <img src={celChikito} alt="Celular Chikito" className=" hidden md" />
+          <img
+            src={celGrande}
+            alt="Celular Grande"
+            className="mx-auto w-[70%] h-[90%] md:w-[50%]  xl:w-[80%] xl:h-[100%]  "
+          />
+          <img
+            src={celChikito}
+            alt="Celular Chikito"
+            className=" hidden xl:block lg:w-[40%] lg:h-[60%] lg:mt-[17rem] relative right-20 top-20"
+          />
         </div>
       </div>
     </div>
