@@ -6,9 +6,9 @@ import compu from '../../img/ControlDeAccesos/compu.webp'
 const Segundo = () => {
   return (
     <div className='xl:flex container-95 pt-24 pb-12'>
-        <div className="inzquierda xl:w-1/2   ">
+        <div className="inzquierda xl:w-1/2  xl:text-xl ">
             
-            <div className='mb-8'>  
+            <div className='mb-8 '>  
                 <div className='flex'>
                     <Check/>  <p className='monserrat-bold'>Acceso controlado</p>
                 </div>
