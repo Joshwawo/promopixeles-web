@@ -22,7 +22,7 @@ const Banner = () => {
               alt="Logo cashless"
               className=" mb-5 mx-auto xl:m-5 w-42"
             />
-            <p className=" text-white text-lg mb-7">
+            <p className=" text-white text-lg mb-7 xl:text-xl">
               con Cashless incrementa tus beneficios y facilita la gestión de
               pagos gracias a nuestro sistema de pagos cashless.
             </p>
