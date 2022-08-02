@@ -45,7 +45,7 @@ const Banner = () => {
                 />
               </div>
             </div>
-            <div className="flex gap-5  flex-row-reverse ">
+            <div className="flex gap-5  flex-row-reverse mt-5 ">
               <div>
                 <a href="https://apps.apple.com/mx/app/codikash-clientes/id1577211896">
                   <img src={capa13} alt="android" className="w-[100%]" />

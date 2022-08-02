@@ -12,8 +12,6 @@ import capa13 from "../../img/Home/capa_13.webp";
 import capa14 from "../../img/Home/capa_14.webp";
 import data from "../../data/data";
 
-
-
 const imgHP = [capa11, capa12, capa13, capa14];
 
 const Body = () => {
@@ -59,16 +57,6 @@ const Body = () => {
             tecnologia digital de nuesto lado.
           </p>
         </div>
-
-        {/* <div className="cards grid">
-          <div className="primera mx-auto">
-            <img src={agenda} alt="icono de agenda" className="" />
-            <p className="border-t-2 border-white w-[7rem] mt-5"></p>
-            <p>
-              <span className=" font-bold text-2xl">· </span> Agenda Digital
-            </p>
-          </div>
-        </div> */}
 
         <div className="md:grid  md:grid-cols-2 xl:grid-cols-4 gap-4 mt-14 items-center">
           {data.map(({ id, img, titulo, desc, bg }, index) => {
