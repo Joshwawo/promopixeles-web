@@ -6,10 +6,10 @@ import {
   ServerIcon,
 } from "@heroicons/react/solid";
 
-import capa11 from "../../img/Home/Capa11.webp";
-import capa12 from "../../img/Home/Capa12.webp";
-import capa13 from "../../img/Home/Capa13.webp";
-import capa14 from "../../img/Home/Capa14.webp";
+import capa11 from "../../img/Home/uno.webp";
+import capa12 from "../../img/Home/dos.webp";
+import capa13 from "../../img/Home/tres.webp";
+import capa14 from "../../img/Home/cuatro.webp";
 import data from "../../data/data";
 
 const imgHP = [capa11, capa12, capa13, capa14];
@@ -58,7 +58,7 @@ const Body = () => {
           </p>
         </div>
 
-        <div className="md:grid  md:grid-cols-2 xl:grid-cols-4 gap-4 mt-14 items-center">
+        <div className="md:grid  md:grid-cols-2  xl:grid-cols-3 2xl:grid-cols-4 gap-4 mt-14 items-center">
           {data.map(({ id, img, titulo, desc, bg }, index) => {
             return (
               <div key={id} className=" ">

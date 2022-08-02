@@ -1,6 +1,6 @@
 import agenda from "../img/Home/agenda.webp";
 import estrategia from "../img/Home/estrategia.webp";
-import impactoFinanciero from "../img/Home/capa_6.webp";
+import impactoFinanciero from "../img/Home/capa6.webp";
 import datos from "../img/Home/transformacion-de-datos.webp";
 
 const data = [
