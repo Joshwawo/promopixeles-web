@@ -18,8 +18,43 @@ const Body = () => {
   return (
     <section className="bg-black">
       <div className="  pt-14 container-95 text-white ">
-        <div className="nosotros">
-          <p className=" text-white text-center text-2xl xl:text-3xl monserrat-bold  ">
+        <div className="nosotros ">
+          <div className="figuras absolute ">
+            <div
+              className="rombo-rojo izquierdo relative xl:bg-orange-00
+            right-8 bottom-8 
+           md:bottom-[1rem] md:right-[4rem]
+           2xl:top-[-2.2rem] xl:right-[8rem]
+
+          "
+            ></div>
+            <div
+              className="rombo-blanco izquierdo xl:bg-yellow-30 relative 
+          right-9 bottom-5 
+          md:right-[4rem]
+          "
+            ></div>
+
+            <div
+              className="rombo-rojo   derecho relative bottom-[8rem] left-[20rem]
+          md:bottom-[11rem] md:left-[42.6rem]
+          xl:bottom-[13rem] xl:left-[72.2rem]
+          2xl:bottom-[14.6rem] 2xl:left-[105.2rem] 
+          
+          
+          
+          "
+            ></div>
+            <div
+              className="rombo-blanco  relative bottom-[8rem] left-[20rem]
+            md:bottom-[11rem] md:left-[42.6rem]
+            xl:bottom-[13rem] xl:left-[69rem]
+            2xl:bottom-[15rem] 2xl:left-[98rem]            
+            "
+            ></div>
+          </div>
+
+          <p className=" text-white text-center text-2xl xl:text-3xl monserrat-bold py-14 ">
             Nosotros
           </p>
           <p className="border-t-4 border-red-700 w-[7rem]  mx-auto"></p>
