@@ -6,10 +6,10 @@ import {
   ServerIcon,
 } from "@heroicons/react/solid";
 
-import capa11 from "../../img/Home/capa_11.webp";
-import capa12 from "../../img/Home/capa_12.webp";
-import capa13 from "../../img/Home/capa_13.webp";
-import capa14 from "../../img/Home/capa_14.webp";
+import capa11 from "../../img/Home/Capa_11.webp";
+import capa12 from "../../img/Home/Capa_12.webp";
+import capa13 from "../../img/Home/Capa_13.webp";
+import capa14 from "../../img/Home/Capa_14.webp";
 import data from "../../data/data";
 
 const imgHP = [capa11, capa12, capa13, capa14];
