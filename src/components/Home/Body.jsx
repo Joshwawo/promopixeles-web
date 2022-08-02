@@ -7,6 +7,7 @@ import {
 } from "@heroicons/react/solid";
 
 import capa11 from "../../img/Home/Capa_11.webp";
+import second from '../../img/Home/'
 import capa12 from "../../img/Home/Capa_12.webp";
 import capa13 from "../../img/Home/Capa_13.webp";
 import capa14 from "../../img/Home/Capa_14.webp";
