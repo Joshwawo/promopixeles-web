@@ -1,4 +1,4 @@
-import Y from '../components/Y'
+import Y from '../components/Home/Y'
 
 const ProductosYservicios = () => {
   return (

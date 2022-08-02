@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="bg-controlDAccesos">
-      <div className=" h-screen xl:h-[40rem]  container-95 container-80 py-16">
+      <div className=" h-screen xl:h-[45rem]  container-95 container-80 py-16">
         <p className="text-xl md:text-2xl text-white mb-10">
           Productos de Software
         </p>

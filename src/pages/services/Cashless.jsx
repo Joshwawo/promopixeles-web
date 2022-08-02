@@ -4,7 +4,7 @@ import Body from '../../components/Cashless/Body'
 import CasoDeUso from '../../components/Cashless/CasoDeUso'
 import Generales from '../../components/Cashless/Generales'
 import Giros from '../../components/Cashless/Giros'
-import Y from '../../components/Y'
+import Y from '../../components/Home/Y'
 
 const Cashless = () => {
   return (

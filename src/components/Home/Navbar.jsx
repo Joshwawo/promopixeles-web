@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { NavLink } from "react-router-dom";
-import logo from "../img/promopixeles.webp";
+import logo from "../../img/promopixeles.webp";
 import DropDown from "./DropDown";
 
 const Navbar = () => {

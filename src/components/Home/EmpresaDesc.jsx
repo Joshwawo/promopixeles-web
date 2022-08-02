@@ -1,6 +1,6 @@
-import TFWebp from '../img/transformacion-digital-800x600.webp'
-import Aliansa from '../img/aliansa-800x600.webp'
-import ModeloIntegral from '../img/modelo-integral-800x600.webp'
+import TFWebp from '../../img/transformacion-digital-800x600.webp'
+import Aliansa from '../../img/aliansa-800x600.webp'
+import ModeloIntegral from '../../img/modelo-integral-800x600.webp'
 
 const EmpresaDesc = () => {
   return (

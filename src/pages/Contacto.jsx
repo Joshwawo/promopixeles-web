@@ -1,5 +1,5 @@
 import React from 'react'
-import Y from '../components/Y'
+import Y from '../components/Home/Y'
 
 const Contacto = () => {
   return (

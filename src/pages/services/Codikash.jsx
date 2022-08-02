@@ -4,7 +4,7 @@ import Body from '../../components/codikash/Body'
 import Cuarto from '../../components/codikash/Cuarto'
 import Quinto from '../../components/codikash/Quinto'
 import Tercero from '../../components/codikash/Tercero'
-import Y from '../../components/Y'
+import Y from '../../components/Home/Y'
 
 const Codikash = () => {
   return (

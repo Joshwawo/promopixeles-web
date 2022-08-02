@@ -10,7 +10,7 @@ import android from "../../img/PYS/Capa_14.webp";
 
 const Banner = () => {
   return (
-    <div className="h-1/2 mb-5 bg-cashless">
+    <section className="h-1/2 mb-5 bg-cashless">
       <div className="container-95 container-80 md:flex py-16">
         <div className="derecha md:w-1/2 mb-2">
           <div className="">
@@ -43,12 +43,12 @@ const Banner = () => {
           <img
             src={verSaldo}
             alt="Ver Saldo"
-            className=" hidden  w-[40%] h-[40%] xl:w-[50%] xl:h-[50%] xl:block relative xl:top-[20rem] xl:left-24"
+            className=" hidden  xl:w-[50%] xl:h-[50%] xl:block relative xl:top-[20rem] xl:left-24"
           />
-          <img src={login} alt="Login app " className="  xl:w-[60%]" />
+          <img src={login} alt="Login app " className="  xl:w-[20rem] xl:h-[40rem]" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

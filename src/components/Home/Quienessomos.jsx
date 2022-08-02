@@ -1,8 +1,8 @@
 import React from "react";
-import como1 from "../img/agenda.png";
-import como2 from "../img/Como1.png";
-import como3 from "../img/como3.png";
-import como4 from "../img/como4.png";
+import como1 from "../../img/agenda.png";
+import como2 from "../../img/Como1.png";
+import como3 from "../../img/como3.png";
+import como4 from "../../img/como4.png";
 
 const QuienesSomos = () => {
   return (
