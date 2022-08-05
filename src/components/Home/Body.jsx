@@ -93,7 +93,7 @@ const Body = () => {
           </p>
         </div>
 
-        <div className="md:grid  md:grid-cols-2  xl:grid-cols-3 2xl:grid-cols-4 gap-4 mt-14 items-center">
+        <div className="md:grid  md:grid-cols-2  xl:grid-cols-3 2xl:grid-cols-4 gap-4 mt-14 items-center pb-10">
           {data.map(({ id, img, titulo, desc, bg }, index) => {
             return (
               <div key={id} className=" ">

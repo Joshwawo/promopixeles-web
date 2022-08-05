@@ -18,13 +18,13 @@ import beneficios from "../../img/Cashless/Capa_16.webp";
 
 const Generales = () => {
   return (
-    <div className="bg-[#069D57] pb-24">
+    <div className="bg-[#069D57] pb-24 mt-10">
       <div className="items xl:flex ">
         <div className="derecha flex ">
           <img
             src={celGrande}
             alt="Celular Grande"
-            className="mx-auto w-[70%] h-[90%] md:w-[50%]  xl:w-[50%] xl:h-[70%]  mt-32"
+            className="mx-auto hidden md:block w-[70%] h-[90%] md:w-[50%]  xl:w-[50%] xl:h-[70%]  mt-32"
           />
           <img
             src={celChikito}

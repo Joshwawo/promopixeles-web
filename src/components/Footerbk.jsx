@@ -1,10 +1,8 @@
-import React from "react";
-// import logo from "../../img/LogoPromopixeles.png";
-import LogoFooter from "../../img/LogoPromoFooter.webp";
+import React from 'react'
 
-const Footer = () => {
+const Footerbk = () => {
   return (
-    <footer className=" bg-[#069D57 bg-[#201f1f] py-20  ">
+    <footer className=" bg-[#069D57] py-20 mt-10">
       <div className="container-95">
         <div className="text-center text-white">
           {/* <p className="text-4xl">Promopixeles</p> */}
@@ -12,11 +10,11 @@ const Footer = () => {
           <p className="pt-10 md:text-2xl">Promopixeles de México SA de CV</p>
         </div>
 
-        <div className="md:flex md:justify-around text-white text-center ">
+        <div className="md:flex md:justify-between text-white">
           <div className="item1 mt-5 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-10 mx-auto"
+              className="h-10 w-10"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -29,12 +27,12 @@ const Footer = () => {
               />
             </svg>
             <p>Ing.Javier Ríos Montaño </p>
-            <a href="tel:6621438751">662 143 8751</a>
+            <p>662 143 8751</p>
           </div>
           <div className="item2 mt-5 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-10 mx-auto"
+              className="h-10 w-10"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -55,7 +53,7 @@ const Footer = () => {
           <div className="item3 mt-5 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-10 mx-auto"
+              className="h-10 w-10"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -74,7 +72,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footerbk

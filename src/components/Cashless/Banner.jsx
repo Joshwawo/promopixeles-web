@@ -45,7 +45,7 @@ const Banner = () => {
             alt="Ver Saldo"
             className=" hidden  xl:w-[50%] xl:h-[50%] xl:block relative xl:top-[20rem] xl:left-24"
           />
-          <img src={login} alt="Login app " className="  xl:w-[20rem] xl:h-[40rem]" />
+          <img src={login} alt="Login app " className=" hidden md:block  xl:w-[20rem] xl:h-[40rem]" />
         </div>
       </div>
     </section>

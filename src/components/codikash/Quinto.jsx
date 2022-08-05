@@ -10,7 +10,7 @@ import restaurante from "../../img/PYS/restaurante.webp";
 
 const Quinto = () => {
   return (
-    <div className=" container-95 h-screen">
+    <div className=" container-95 ">
       <p className=" monserrat-bold text-center text-3xl py-12">Giros de comercios</p>
       <div className="icons gap-4 xl:gap-6 font-semibold md:grid md:grid-cols-4  xl:grid-cols-5 place-items py-5 px-5-center w-full ">
         <div className="item2 py-5 px-5  bg-yellow-400">

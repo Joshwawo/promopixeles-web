@@ -4,8 +4,8 @@ import cajero from "../../img/Cashless/Objeto_inteligente_vectorial.webp";
 const Body = () => {
   return (
     <div className="my-24">
-          <p className="monserrat-bold text-center md:text-start pl-12 text-4xl mb-2">
-            App de Pago libre
+          <p className="monserrat-bold  pl-12 text-4xl mb-2 uppercase">
+            App de pago libre de efectivo
           </p>
       <div className="items md:flex container-95">
         <div className="derecha w-full  md:mr-5">
@@ -48,8 +48,10 @@ const Body = () => {
             </p>
             <p>Decide que saldo quieres cargar.</p>
           </div>
+          
         </div>
       </div>
+      <div className=" bg-[#069D57] py-4 mt-5"></div>
     </div>
   );
 };
