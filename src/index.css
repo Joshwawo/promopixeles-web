@@ -69,6 +69,12 @@
   /* background-position: center center; */
   background-size: cover;
 }
+.bg-cashless-nuevo{
+  background-image: url(./img/Cashless/bannernuevo.webp);
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  background-size: cover;
+}
 
 .bg-controlDAccesos {
   background-image: url(./img/ControlDeAccesos/fondo.webp);

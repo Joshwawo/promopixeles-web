@@ -1,4 +1,4 @@
-import logo from "../../img/Cashless/CashlessLogo.webp";
+import logo from "../../img/Cashless/logoNvo.webp";
 import download from "../../img/Cashless/Capa_22.webp";
 import login from "../../img/Cashless/Capa_24.webp";
 import verSaldo from "../../img/Cashless/Capa-25.webp";
@@ -10,7 +10,7 @@ import android from "../../img/PYS/Capa_14.webp";
 
 const Banner = () => {
   return (
-    <section className="h-1/2 mb-5 bg-cashless">
+    <section className="h-1/2 mb-5 bg-cashless-nuevo">
       <div className="container-95 container-80 md:flex py-16">
         <div className="derecha md:w-1/2 mb-2">
           <div className="">

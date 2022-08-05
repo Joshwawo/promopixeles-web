@@ -13,8 +13,8 @@ const Cashless = () => {
         <Banner/>
         <Body/>
         <CasoDeUso/>
-        <Giros/>
         <Generales/>
+        <Giros/>
     </div>
   )
 }

@@ -4,6 +4,9 @@ import cajero from "../../img/Cashless/Objeto_inteligente_vectorial.webp";
 const Body = () => {
   return (
     <div className="my-24">
+          <p className="monserrat-bold text-center md:text-start pl-12 text-4xl mb-2">
+            App de Pago libre
+          </p>
       <div className="items md:flex container-95">
         <div className="derecha w-full  md:mr-5">
           <img
@@ -13,12 +16,9 @@ const Body = () => {
           />
         </div>
         <div className="inzquierda w-full mt-10 md:m-0">
-          <p className="monserrat-bold  text-center md:text-start text-2xl">
-            App de Pago libre
-          </p>
-          <p className="monserrat-bold  text-center md:text-start text-2xl">
+          {/* <p className="monserrat-bold  text-center md:text-start text-2xl">
             De Efectivo{" "}
-          </p>
+          </p> */}
 
           <div className="1 mb-5 mt-5">
             <p className="monserrat-semibold ">
