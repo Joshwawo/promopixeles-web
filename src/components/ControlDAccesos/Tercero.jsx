@@ -16,7 +16,7 @@ const Tercero = () => {
                 <p><span className=" font-bold text-2xl">· </span>Dashboards directivos con KPI´s configurables</p>
                 <p><span className=" font-bold text-2xl">· </span>Capacidad de registro de incidencias para procesos de seguridad patrimonial</p>
                 <p><span className=" font-bold text-2xl">· </span>API para integración con sistemas de seguridad electrónica como plumas y torniquetes</p>
-                <p><span className=" font-bold text-2xl">· </span>Gneración de reportes exportables de bitácora</p>
+                <p><span className=" font-bold text-2xl">· </span>Generación de reportes exportables de bitácora</p>
             </div>
         </div>
     </div>

@@ -47,7 +47,7 @@ const Segundo = () => {
         <p className="monserrat-regular text-justify mt-5 mb-10 md:text-xl">
           Nuestro enfoque consultivo es de acompañamiento y colaboración para
           lograr objetivos de negocio, <br />
-          se cuenta con un grupo diverso de especialistas para lelvar un
+          se cuenta con un grupo diverso de especialistas para llevar un
           proyecto de Business Inteligence.
         </p>
       </section>
@@ -174,7 +174,7 @@ const Segundo = () => {
              </span>
              <p className=" monserrat-semibold">
                Fidelizar y capturar clientes, optimizar proceso y <br />
-               ahorrar a través de prodicciones.
+               ahorrar a través de predicciones.
              </p>
            </div>
            <div className="flex pt-4">

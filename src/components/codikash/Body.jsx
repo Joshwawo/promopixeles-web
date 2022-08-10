@@ -16,7 +16,7 @@ const Body = () => {
                 <p><span className=" font-bold text-2xl">· </span>Aumento de ventas</p>
                 <p><span className=" font-bold text-2xl">· </span>Ingreso a diversos mercados</p>
                 <p><span className=" font-bold text-2xl">· </span>Histórico de datos</p>
-                <p><span className=" font-bold text-2xl">· </span>Anaíticas</p>
+                <p><span className=" font-bold text-2xl">· </span>Analíticas</p>
                 <p><span className=" font-bold text-2xl">· </span>Inteligencia de negocios</p>
               </div>
         
