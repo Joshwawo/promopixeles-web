@@ -10,7 +10,7 @@ import capa11 from "../../img/Home/uno.webp";
 import capa12 from "../../img/Home/dos.webp";
 import capa13 from "../../img/Home/tres.webp";
 import capa14 from "../../img/Home/cuatro.webp";
-import data from "../../data/data";
+import {data} from "../../data/data";
 
 const imgHP = [capa11, capa12, capa13, capa14];
 

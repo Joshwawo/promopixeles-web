@@ -31,6 +31,13 @@ const DropDown = () => {
         >
           Gestion de Accesos
         </NavLink>
+        <NavLink
+          to="/tableros"
+          onClick={handleClose}
+          className={({ isActive }) => (isActive ? "text-red-400" : "")}
+        >
+          Tableros
+        </NavLink>
       </div>
     </div>
   );

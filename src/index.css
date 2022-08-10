@@ -28,6 +28,11 @@
   font-weight: 700;
   font-style: italic;
 }
+.monserrat-bold-regular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
 .monserrat-light {
   font-family: "Montserrat", sans-serif;
@@ -52,6 +57,12 @@
 
 .bg-bg {
   background-image: url(https://media.discordapp.net/attachments/775393794186412073/997185060811845813/unknown.png?width=1314&height=604);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.bg-tableros {
+  background-image: url(./img/Tableros/portadatres.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -286,32 +297,43 @@
   }
 }
 
-/* @media (min-width: 1536px) {
-  .rombo-blanco {
-    width: 250px; 
-    height: 250px; 
-    border: 3px solid rgb(6, 156, 18); 
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
+/* #base {
+  background: blue;
+  display: inline-block;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 55px;
+  position: relative;
+  width: 100px;
+  transform: rotate(90deg);
+  
+  
 }
-  */
 
+#base:before {
+  border-bottom: 35px solid blue;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
+  
+  
+}
 
- 
-
-
-/* .rombo-blanco {
-  width: 100px; 
-  height: 100px; 
-  border: 3px solid rgb(161, 184, 63); 
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+#base2:before {
+  border-bottom: 35px solid blue;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
+  
+  
 } */
-
