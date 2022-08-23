@@ -29,14 +29,14 @@ const Navbar = () => {
             <li>
               <DropDown />
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to="/contacto"
                 className={({ isActive }) => (isActive ? "rojitoNav" : "")}
               >
                 Contacto
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -65,10 +65,11 @@ const Navbar = () => {
               <NavLink to="/codikash" onClick={handleClose} className={({ isActive }) => (isActive ? "text-red-400" : "")}>Codikash</NavLink>
               <NavLink to="/cashless" onClick={handleClose} className={({ isActive }) => (isActive ? "text-red-400" : "")}>Cashless</NavLink>
               <NavLink to="/gestionacceso" onClick={handleClose} className={({ isActive }) => (isActive ? "text-red-400" : "")}>Gestion de accesos</NavLink>
+              <NavLink to="/tableros"onClick={handleClose}className={({ isActive }) => (isActive ? "text-red-400" : "")}>Tableros</NavLink>
             </div>
           </div>
         </li>
-        <li className="border-b-2 border-white w-full">
+        {/* <li className="border-b-2 border-white w-full">
           <NavLink
             to="/contacto"
             onClick={handleClose}
@@ -76,7 +77,7 @@ const Navbar = () => {
           >
             Contacto
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

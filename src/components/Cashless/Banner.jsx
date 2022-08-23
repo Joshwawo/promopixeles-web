@@ -21,6 +21,7 @@ const Banner = () => {
               src={logo}
               alt="Logo cashless"
               className=" mb-5 mx-auto xl:m-5 w-42"
+              
             />
             <p className=" text-white text-lg mb-7 xl:text-xl">
               con Cashless incrementa tus beneficios y facilita la gestión de
@@ -28,10 +29,10 @@ const Banner = () => {
             </p>
            <div className="flex gap-5 flex-row">
              <a href="https://apps.apple.com/mx/app/cashless-estadios/id1588139450">
-             <img src={ios} alt="Download Ios/Android" className="mb-10" />
+             <img src={ios} alt="Download Ios/Android" className="mb-10"  />
              </a>
              <a href="https://play.google.com/store/apps/details?id=com.bs.pv">
-             <img src={android} alt="Download Ios/Android" className="mb-10" />
+             <img src={android} alt="Download Ios/Android" className="mb-10"  />
 
              </a>
            </div>
@@ -44,8 +45,9 @@ const Banner = () => {
             src={verSaldo}
             alt="Ver Saldo"
             className=" hidden  xl:w-[50%] xl:h-[50%] xl:block relative xl:top-[20rem] xl:left-24"
+            loading="lazy"
           />
-          <img src={login} alt="Login app " className=" hidden md:block  xl:w-[20rem] xl:h-[40rem]" />
+          <img src={login} alt="Login app " className=" hidden md:block  xl:w-[20rem] xl:h-[40rem]" loading="lazy" />
         </div>
       </div>
     </section>

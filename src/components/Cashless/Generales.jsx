@@ -25,11 +25,13 @@ const Generales = () => {
             src={celGrande}
             alt="Celular Grande"
             className="mx-auto hidden md:block w-[70%] h-[90%] md:w-[50%]  xl:w-[50%] xl:h-[70%]  mt-32"
+            loading="lazy"
           />
           <img
             src={celChikito}
             alt="Celular Chikito"
             className=" hidden xl:block lg:w-[40%] lg:h-[55%] lg:mt-[17rem] relative right-20 top-20"
+            loading="lazy"
           />
         </div>
         <div className="izquierda md:w-2/3 pt-12 md:pt-24 mx-auto">

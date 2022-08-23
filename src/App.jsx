@@ -30,9 +30,11 @@ function App() {
         <Route path="/cashless" element={<Cashless />} />
         <Route path="/gestionacceso" element={<GestionDeAccesos />} />
         <Route path="/tableros" element={<Tableros />} />
-        <Route path="/contacto" element={<Contacto />} />
+        {/* <Route path="/contacto" element={<Contacto />} /> */}
         <Route path="*" element={<Error404 />} />
       </Routes>
+
+      
 
       <Footer />
     </div>

@@ -10,6 +10,7 @@ const CasoDeUso = () => {
           src={casoDeUso}
           alt="Caso de uso"
           className="w-full xl:w-[90%] mx-auto"
+          loading="lazy"
         />
       </div>
       <div className="items md:flex justify-around gap-2 text-center monserrat-regular"></div>

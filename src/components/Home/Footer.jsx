@@ -30,6 +30,9 @@ const Footer = () => {
             </svg>
             <p>Ing.Javier Ríos Montaño </p>
             <a href="tel:6621438751">662 143 8751</a>
+            <br />
+            <a href="mailto:javier@promopixeles.com">javier@promopixeles.com</a>
+            
           </div>
           <div className="item2 mt-5 ">
             <svg
@@ -70,6 +73,8 @@ const Footer = () => {
             <a href="mailto:Comercial@promopixeles.com">
               Comercial@promopixeles.com
             </a>
+          
+            
           </div>
         </div>
       </div>

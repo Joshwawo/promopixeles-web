@@ -6,7 +6,7 @@ const Footerbk = () => {
       <div className="container-95">
         <div className="text-center text-white">
           {/* <p className="text-4xl">Promopixeles</p> */}
-          <img src={LogoFooter} alt="Logo Promopixeles" className=" w-[40%] xl:w-[20%] mx-auto" />
+          <img src={LogoFooter} alt="Logo Promopixeles" className=" w-[40%] xl:w-[20%] mx-auto" loading='lazy' />
           <p className="pt-10 md:text-2xl">Promopixeles de México SA de CV</p>
         </div>
 

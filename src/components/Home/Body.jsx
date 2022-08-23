@@ -104,9 +104,9 @@ const Body = () => {
                 >
                   <img src={img} alt={titulo} className="mx-auto pt-10" />
                   <p className="border-t-2 border-white w-[15rem]  mx-auto mt-5"></p>
-                  <p className="text-center my-5 monserrat-bold">{titulo}</p>
+                  <p className="text-center my-5 monserrat-bold pb-10"  >{titulo}</p>
 
-                  {desc.map((desc, i) => {
+                  {/* {desc.map((desc, i) => {
                     return (
                       <p
                         key={i}
@@ -116,7 +116,7 @@ const Body = () => {
                         {desc}
                       </p>
                     );
-                  })}
+                  })} */}
                 </div>
               </div>
             );

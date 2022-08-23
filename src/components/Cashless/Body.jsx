@@ -13,6 +13,7 @@ const Body = () => {
             src={cajero}
             alt="Cajero"
             className=" w-[60%] md:w-[90%] xl:w-[60%] mx-auto "
+            loading="lazy"
           />
         </div>
         <div className="inzquierda w-full mt-10 md:m-0">
