@@ -12,7 +12,7 @@ const Segundo = () => {
                 <div className='flex'>
                     <Check/>  <p className='monserrat-bold'>Acceso controlado</p>
                 </div>
-                <p>Interfaz movil para guardias de seguridad en el sitio</p>
+                <p>Interfaz móvil para guardias de seguridad en el sitio</p>
             </div>
             <div className='mb-8'>
                 <div className='flex'>
@@ -28,9 +28,9 @@ const Segundo = () => {
             </div>
             <div className='mb-8'>
                 <div className='flex'>
-                    <Check/>  <p className='monserrat-bold'>Practividad para visitantes</p>
+                    <Check/>  <p className='monserrat-bold'>Practicidad para visitantes</p>
                 </div>
-                <p>Códigos QR para la identificacioón digital del visitante</p>
+                <p>Códigos QR para la identificación  digital del visitante</p>
             </div>
 
             <div className='mb-8'>

@@ -59,7 +59,7 @@ const Body = () => {
           </p>
           <p className="border-t-4 border-red-700 w-[7rem]  mx-auto"></p>
           <p className=" md:text-center mt-10 ">
-            Nuesto enfoque es crear, optimizar y transformar modelos y procesos
+          Nuestro  enfoque es crear, optimizar y transformar modelos y procesos
             de negocio,
             <br />
             cultura y experiencia de clientes para satisfacer los cambios de
@@ -89,7 +89,7 @@ const Body = () => {
             Conectamos expertos en tecnologías con expertos en el negocio para
             crear <br /> la oportunidad de volver a imaginar cómo hacemos
             negocios, cómo involucramos <br />a nuestros clientes, con la
-            tecnologia digital de nuesto lado.
+            tecnología  digital de nuestro  lado.
           </p>
         </div>
 

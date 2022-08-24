@@ -44,10 +44,8 @@ const Segundo = () => {
           ¿Cómo lo hacemos?
         </h2>
         <p className="monserrat-regular text-justify mt-5 mb-10 md:text-xl">
-          Nuestro enfoque consultivo es de acompañamiento y colaboración para
-          lograr objetivos de negocio, <br />
-          se cuenta con un grupo diverso de especialistas para llevar un
-          proyecto de Business Inteligence.
+        Nuestro enfoque consultivo es de acompañamiento y colaboración para lograr objetivos de negocio, <br />
+se cuenta con un grupo diverso de especialistas para llevar un proyecto de Business Inteligente.
         </p>
       </section>
 
@@ -84,8 +82,9 @@ const Segundo = () => {
         <div className="fortalesas container-95 h-screen md:flex">
           <div className=" md:w-1/2">
             <p className="text-white monserrat-bold text-4xl pt-20">
-              Fortalezas de <br /> inteligencia de <br />
-              negocio
+              Fortalezas de <br /> Business <br />
+              Intelligence
+            
             </p>
             <p className="border-t-8 border-white w-[4rem] my-7"></p>
 
@@ -114,7 +113,7 @@ const Segundo = () => {
 
       <section className="container-95 pb-14">
         <h2 className="text-blue-900 monserrat-bold md:text-2xl xl:text-3xl mt-10 mb-5">
-          Beneficios de implemetar BI en organizaciones
+          Beneficios de implementar  BI en organizaciones
         </h2>
 
         <div className=" xl:flex">
@@ -154,7 +153,7 @@ const Segundo = () => {
               </span>
               <p className=" monserrat-semibold">
                 Analizar las tendencias y a los clientes para <br />
-                lograr una mejor segmentacion del mercado.
+                lograr una mejor segmentación  del mercado.
               </p>
             </div>
             <div className="flex pt-4">
@@ -162,7 +161,7 @@ const Segundo = () => {
                 5
               </span>
               <p className=" monserrat-semibold">
-                crear reportes detallas y personalizados.
+              Crear  reportes detallados y personalizados.
               </p>
             </div>
             <div className="flex pt-4">
@@ -180,7 +179,7 @@ const Segundo = () => {
               </span>
               <p className=" monserrat-semibold">
                 Mejorar la experiencia del usuario en marketing, <br />
-                ecommerce, plataformas de streaming, etc.
+                e-commerce,, plataformas de streaming, etc.
               </p>
             </div>
             <div className="flex pt-4">

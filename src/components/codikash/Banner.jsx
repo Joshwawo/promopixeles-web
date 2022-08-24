@@ -22,9 +22,9 @@ const Banner = () => {
               className="w-[60%] md:w-[70%] xl:w-[70%]"
             />
             <p className="text-white   md:w-[90%] xl:w-[80%] xl:text-xl   mt-5">
-              Aplicacion que ofrece una pltaforma donde podrás navegar y conocer
-              tus puntos obtenidos durante tus operaciones con las marcas. una
-              aplicacion 100% segura que permite sincronizar tu código QR
+            Aplicación que ofrece una plataforma  donde podrás navegar y conocer
+              tus puntos obtenidos durante tus operaciones con las marcas. Una 
+              aplicación  100% segura que permite sincronizar tu código QR
               personalizado.
             </p>
           </div>

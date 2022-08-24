@@ -64,7 +64,7 @@ const Generales = () => {
                 className="mx-auto"
               />
               <p className="text-center">
-                Historico de <br />
+              Histórico de <br />
                 datos
               </p>
             </div>
@@ -74,7 +74,7 @@ const Generales = () => {
                 alt="Analiticas"
                 className="mx-auto"
               />
-              <p className="text-center">Inteligencia de negocio, <br /> Analíticas <br /> Predictividad</p>
+              <p className="text-center">Inteligencia de negocio, <br /> Analíticas <br /> Productividad</p>
             </div>
             <div className="img2 bg-[#FFFFFF] my-5 rounded-3xl py-5 px-5 xl:w-[75%]">
               <img src={crm} alt="Recompensas" className="mx-auto" />
@@ -101,7 +101,7 @@ const Generales = () => {
                 className="mx-auto"
               />
               <p className="text-center">
-                beneficios <br /> Sanitarios Covid
+              Beneficios <br /> Sanitarios Covid
               </p>
             </div>
           </div>

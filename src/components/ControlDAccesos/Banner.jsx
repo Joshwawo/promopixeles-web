@@ -11,9 +11,9 @@ const Banner = () => {
           Sistema de gestión de <br /> procesos de acceso
         </p>
         <p className="text-white pt-10 xl:text-xl">
-          La herramienta de gestión de procesos se diseño para dar{" "}
-          <br className="hidden md:inline-block " /> solucion al control y
-          administracion de solicitudes de{" "}
+          La herramienta de gestión de procesos se diseñó  para dar{" "}
+          <br className="hidden md:inline-block " /> solución  al control y
+          administración de solicitudes de{" "}
           <br className="hidden md:inline-block " /> acceso y control de
           visitantes, a los principales usuarios{" "}
           <br className="hidden md:inline-block " /> que se benefician de este

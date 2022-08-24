@@ -25,7 +25,7 @@ const Tercero = () => {
               <p className="xl:pl-10  xl:pr-10 ">
                 A través de{" "}
                 <span className="oscuro font-semibold">Codikash</span>, un
-                sistema de recomensas donde los ciudadanos consumen en los
+                sistema de recompensas  donde los ciudadanos consumen en los
                 negocios participantes y generan saldos.
               </p>
             </div>

@@ -124,12 +124,12 @@ const comolohacemosdata = [
   {
     id: 1,
     img: uno,
-    titulo: "Exploracion de datos, fuentes de datos y procesos de negocios",
+    titulo: "Exploración de datos, fuentes de datos y procesos de negocios",
   },
   {
     id: 7,
     img: siete,
-    titulo: "Generación de datos IOT",
+    titulo: "Generación de datos IoT",
   },
   {
     id: 2,
@@ -139,7 +139,7 @@ const comolohacemosdata = [
   {
     id: 3,
     img: tres,
-    titulo: "Integración de datos y desarollo",
+    titulo: "Integración de datos y desarrollo",
   },
   {
     id: 4,

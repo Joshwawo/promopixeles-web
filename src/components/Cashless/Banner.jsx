@@ -24,7 +24,7 @@ const Banner = () => {
               
             />
             <p className=" text-white text-lg mb-7 xl:text-xl">
-              con Cashless incrementa tus beneficios y facilita la gestión de
+              Con Cashless incrementa tus beneficios y facilita la gestión de
               pagos gracias a nuestro sistema de pagos cashless.
             </p>
            <div className="flex gap-5 flex-row">

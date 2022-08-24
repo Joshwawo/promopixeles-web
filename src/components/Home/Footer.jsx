@@ -56,7 +56,7 @@ const Footer = () => {
             <p>
               Paseo Río Sonora Norte No.51 <br />
               Proyecto Rio Sonora <br />
-              Hermosilllo, Sonora.
+              Hermosillo, Sonora.
             </p>
           </div>
           <div className="item3 mt-5 ">
