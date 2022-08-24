@@ -8,12 +8,16 @@ const Footer = () => {
       <div className="container-95">
         <div className="text-center text-white">
           {/* <p className="text-4xl">Promopixeles</p> */}
-          <img src={LogoFooter} alt="Logo Promopixeles" className=" w-[40%] xl:w-[20%] mx-auto" />
+          <img
+            src={LogoFooter}
+            alt="Logo Promopixeles"
+            className=" w-[40%] xl:w-[20%] mx-auto"
+          />
           <p className="pt-10 md:text-2xl">Promopixeles de México SA de CV</p>
         </div>
 
         <div className="md:flex md:justify-around text-white text-center ">
-          <div className="item1 mt-5 ">
+          {/* <div className="item1 mt-5 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-10 w-10 mx-auto"
@@ -33,7 +37,7 @@ const Footer = () => {
             <br />
             <a href="mailto:javier@promopixeles.com">javier@promopixeles.com</a>
             
-          </div>
+          </div> */}
           <div className="item2 mt-5 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -73,8 +77,10 @@ const Footer = () => {
             <a href="mailto:Comercial@promopixeles.com">
               Comercial@promopixeles.com
             </a>
-          
-            
+            <br />
+            <a href="mailto:soporte@promopixeles.con">
+              soporte@promopixeles.con
+            </a>
           </div>
         </div>
       </div>

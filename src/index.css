@@ -100,6 +100,8 @@
   background-position: center center;
   background-size: cover;
   object-fit: cover;
+  /* filter: brightness(0.2);  */
+  /* background-color: blue; */
 }
 .bg-tableros-2::before {
   content: "";
@@ -107,8 +109,15 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 98.2%;
+  height: 98%;
   background-color: rgba(15, 74, 201, 0.575);
+}
+
+@media (min-width: 640px) {
+  .bg-tableros-2::before {
+    height: 79.7%;
+    background-color: rgba(15, 74, 201, 0.575);
+  }
 }
 
 @media (min-width: 768px) {
@@ -123,55 +132,31 @@
   }
 }
 
-/* @media (min-width: 1024px) {
-  .bg-tableros-2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 87.7%;
-    background-color: rgba(15, 74, 201, 0.575);
-  }
-} */
-
 @media (min-width: 1024px) {
   .bg-tableros-2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 87.7%;
-    background-color: rgba(201, 127, 15, 0.575);
+    height: 87%;
+    background-color: rgba(15, 74, 201, 0.575);
   }
 }
 
 @media (min-width: 1280px) {
   .bg-tableros-2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90%;
-    background-color: rgba(218, 70, 12, 0.575);
+    height: 100%;
+    background-color: rgba(15, 74, 201, 0.575);
+
   }
 }
+
 @media (min-width: 1536px) {
   .bg-tableros-2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 87.7%;
-    /* background-color: rgba(15, 74, 201, 0.301); */
-    background-color: rgba(15, 74, 201, 0.418);
-
-    /* background-color: rgba(20, 240, 86, 0.575); */
+    background-color: rgba(15, 74, 201, 0.575);
   }
 }
+
+/* @media (min-width: ){
+ 
+} */
 
 .m0-auto {
   margin: 0 auto;

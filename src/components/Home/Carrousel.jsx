@@ -105,9 +105,9 @@ const Carrusel = () => {
               <span className="text-white">❮</span>
             </a>
             <p className=" text-white md:text-2xl  absolute top-[4.3rem] md:top-20 xl:top-40 xl:left-20">
-              Control de accesos 
+             Tableros inteligencia de negocios
             </p>
-            <NavLink to="/gestionacceso">
+            <NavLink to="/tableros">
               <button className="black text-white font-bold py-[.2rem]   border md:py-2   w-20 hover:bg-white hover:text-black 
               absolute  left-[-.1rem] top-[5.9rem]  md:top-[7rem] xl:top-48 xl:left-20">
                 Ver

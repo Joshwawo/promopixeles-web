@@ -6,18 +6,17 @@ import comolohacemos from "../../img/Tableros/comohacemos2.webp";
 import pc from "../../img/Tableros/comowbg.webp";
 import pcs from "../../img/Tableros/pcs.webp";
 
-
 const Segundo = () => {
   return (
     <div className=" ">
       <section className="p1 container-95">
         <p className="text-blue-900 monserrat-bold md:text-2xl xl:text-3xl mt-10">
-          Business Inteligence /{" "}
+          Business Intelligence /{" "}
           <span className="monserrat-bold-regular">Retos</span>{" "}
         </p>
         <p className="monserrat-regular text-justify mt-5  md:text-xl">
           Es el uso de técnicas, herramientas y capacidades, para generar
-          conocimiento y éste se transforma en una mejor toma de decisiones, las
+          conocimiento y este se transforma en una mejor toma de decisiones, las
           cuales nos permiten ir un paso adelante de nuestra competencia o
           también nos ayudan a evitar distintas situaciones con las que se
           podría topar nuestra empresa.
@@ -118,90 +117,86 @@ const Segundo = () => {
           Beneficios de implemetar BI en organizaciones
         </h2>
 
-        
+        <div className=" xl:flex">
+          <div className="items xl:w-1/2 ">
+            <div className="flex pt-4">
+              <span className="text-blue-900 text-2xl px-2  monserrat-bold">
+                1
+              </span>
+              <p className=" monserrat-semibold">
+                Tomar decisiones sobre el negocio basado <br /> en información
+                confiable
+              </p>
+              .
+            </div>
 
-       <div className=" xl:flex" >
-         <div className="items xl:w-1/2 ">
-           <div className="flex pt-4">
-             <span className="text-blue-900 text-2xl px-2  monserrat-bold">
-               1
-             </span>
-             <p className=" monserrat-semibold">
-               Tomar decisiones sobre el negocio basado <br /> en información
-               confiable
-             </p>
-             .
-           </div>
-        
-           <div className="flex pt-4">
-             <span className="text-blue-900 text-2xl px-2  monserrat-bold">
-               2
-             </span>
-             <p className=" monserrat-semibold">
-               Realizar análisis como proyecciones sobre <br /> las ventas, ingresos y
-               la rentabilidad.
-             </p>
-           </div>
-           <div className="flex pt-4">
-             <span className="text-blue-900 text-2xl px-2  monserrat-bold">
-               3
-             </span>
-             <p className=" monserrat-semibold">
-               Detectar problemas como dobles procesos, <br />
-               demoras y falta de eficacia en la ejecución de tareas.
-             </p>
-           </div>
-           <div className="flex pt-4">
-             <span className="text-blue-900 text-2xl px-2  monserrat-bold">
-               4
-             </span>
-             <p className=" monserrat-semibold">
-               Analizar las tendencias y a los clientes para <br />
-               lograr una mejor segmentacion del mercado.
-             </p>
-           </div>
-           <div className="flex pt-4">
-             <span className="text-blue-900 text-2xl px-2  monserrat-bold">
-               5
-             </span>
-             <p className=" monserrat-semibold">
-               crear reportes detallas y personalizados.
-             </p>
-           </div>
-           <div className="flex pt-4">
-             <span className="text-blue-900 text-2xl px-2  monserrat-bold">
-               6
-             </span>
-             <p className=" monserrat-semibold">
-               Fidelizar y capturar clientes, optimizar proceso y <br />
-               ahorrar a través de predicciones.
-             </p>
-           </div>
-           <div className="flex pt-4">
-             <span className="text-blue-900 text-2xl px-2  monserrat-bold">
-               7
-             </span>
-             <p className=" monserrat-semibold">
-               Mejorar la experiencia del usuario en marketing, <br />
-               ecommerce, plataformas de streaming, etc.
-             </p>
-           </div>
-           <div className="flex pt-4">
-             <span className="text-blue-900 text-2xl px-2  monserrat-bold">
-               8
-             </span>
-             <p className=" monserrat-semibold">
-               Detectar y corregir posibles desviaciones en los <br />
-               presupuestos de una empresa.
-             </p>
-           </div>
-         </div>
-         <div className=" xl:w-1/2">
-          <img src={pcs} alt="dos pcs" className=" hidden xl:block mx-auto" />
-         </div>
-       </div>
-
-     
+            <div className="flex pt-4">
+              <span className="text-blue-900 text-2xl px-2  monserrat-bold">
+                2
+              </span>
+              <p className=" monserrat-semibold">
+                Realizar análisis como proyecciones sobre <br /> las ventas,
+                ingresos y la rentabilidad.
+              </p>
+            </div>
+            <div className="flex pt-4">
+              <span className="text-blue-900 text-2xl px-2  monserrat-bold">
+                3
+              </span>
+              <p className=" monserrat-semibold">
+                Detectar problemas como dobles procesos, <br />
+                demoras y falta de eficacia en la ejecución de tareas.
+              </p>
+            </div>
+            <div className="flex pt-4">
+              <span className="text-blue-900 text-2xl px-2  monserrat-bold">
+                4
+              </span>
+              <p className=" monserrat-semibold">
+                Analizar las tendencias y a los clientes para <br />
+                lograr una mejor segmentacion del mercado.
+              </p>
+            </div>
+            <div className="flex pt-4">
+              <span className="text-blue-900 text-2xl px-2  monserrat-bold">
+                5
+              </span>
+              <p className=" monserrat-semibold">
+                crear reportes detallas y personalizados.
+              </p>
+            </div>
+            <div className="flex pt-4">
+              <span className="text-blue-900 text-2xl px-2  monserrat-bold">
+                6
+              </span>
+              <p className=" monserrat-semibold">
+                Fidelizar y capturar clientes, optimizar proceso y <br />
+                ahorrar a través de predicciones.
+              </p>
+            </div>
+            <div className="flex pt-4">
+              <span className="text-blue-900 text-2xl px-2  monserrat-bold">
+                7
+              </span>
+              <p className=" monserrat-semibold">
+                Mejorar la experiencia del usuario en marketing, <br />
+                ecommerce, plataformas de streaming, etc.
+              </p>
+            </div>
+            <div className="flex pt-4">
+              <span className="text-blue-900 text-2xl px-2  monserrat-bold">
+                8
+              </span>
+              <p className=" monserrat-semibold">
+                Detectar y corregir posibles desviaciones en los <br />
+                presupuestos de una empresa.
+              </p>
+            </div>
+          </div>
+          <div className=" xl:w-1/2">
+            <img src={pcs} alt="dos pcs" className=" hidden xl:block mx-auto" />
+          </div>
+        </div>
       </section>
     </div>
   );

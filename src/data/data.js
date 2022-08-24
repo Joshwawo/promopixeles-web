@@ -83,7 +83,7 @@ const tablerosData = [
     id: 1,
     img: tomaDecisiones,
     titulo:
-      "Cambiar la cultura de toma de decisiones de experencia a basadas en información",
+      "Cambiar la cultura de toma de decisiones de experiencia a basadas en información",
   },
   {
     id: 2,
@@ -101,17 +101,17 @@ const tablerosData = [
     id: 4,
     img: datostableros,
     titulo:
-      "Gestionar diversas fuentes y volúmenes de datos y tener la capacidad de homogenizar para su posterior análisis",
+      "Gestionar diversas fuentes y volúmenes de datos y tener la capacidad de homogeneizar para su posterior análisis",
   },
   {
     id: 5,
     img: calidad,
-    titulo: "Capacidad de gestionar la callidad de llos datos",
+    titulo: "Capacidad de gestionar la calidad de los datos",
   },
   {
     id: 6,
     img: seguridad,
-    titulo: "Seguridad de la informacion",
+    titulo: "Seguridad de la información",
   },
   {
     id: 7,
