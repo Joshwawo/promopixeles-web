@@ -1,4 +1,3 @@
-import React from 'react'
 import Body from '../components/Home/Body'
 import Carrusel from '../components/Home/Carrousel'
 import EmpresaDesc from '../components/Home/EmpresaDesc'
