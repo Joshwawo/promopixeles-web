@@ -34,11 +34,13 @@ const Carrusel = () => {
             {/* <p className=" text-red-500 relative left-[45rem] top-[19rem] bg-blue-500 p-2">HELLO THERE</p> */}
             <a
               className=" relative  left-[55.5rem] top-[19rem] px-20 py-2"
+              target={"_blank"}
               href="https://play.google.com/store/apps/details?id=com.promopixeles.codikash_app"
             >
               .
             </a>
             <a
+             target={"_blank"}
               className=" relative left-[34rem] top-[19rem] px-20"
               href="https://apps.apple.com/mx/app/codikash-clientes/id1577211896"
             >

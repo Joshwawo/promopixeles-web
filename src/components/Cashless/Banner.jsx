@@ -28,17 +28,17 @@ const Banner = () => {
               pagos gracias a nuestro sistema de pagos cashless.
             </p>
             <div className="flex gap-5 flex-row">
-              <a href="https://apps.apple.com/mx/app/cashless-estadios/id1588139450">
+              <a target={"_blank"} href="https://apps.apple.com/mx/app/cashless-estadios/id1588139450">
                 <img src={ios} alt="Download Ios/Android" className="mb-10" />
               </a>
-              <a href="https://play.google.com/store/apps/details?id=com.bs.pv">
+              <a target={"_blank"} href="https://play.google.com/store/apps/details?id=com.bs.pv">
                 <img
                   src={android}
                   alt="Download Ios/Android"
                   className="mb-10"
                 />
               </a>
-              <a href="https://www.instagram.com/cashlessestadios">
+              <a target={"_blank"} href="https://www.instagram.com/cashlessestadios">
                 <img src={iglogo} alt="Ig logo" className="w-14" />
               </a>
             </div>
