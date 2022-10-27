@@ -47,12 +47,12 @@ const Banner = () => {
             </div>
             <div className="flex gap-5  flex-row-reverse mt-5 ">
               <div>
-                <a href="https://apps.apple.com/mx/app/codikash-clientes/id1577211896">
+                <a target={"_blank"} href="https://apps.apple.com/mx/app/codikash-clientes/id1577211896">
                   <img src={capa13} alt="android" className="w-[100%]" />
                 </a>
               </div>
               <div>
-                <a href="https://play.google.com/store/apps/details?id=com.promopixeles.codikash_app">
+                <a target={"_blank"} href="https://play.google.com/store/apps/details?id=com.promopixeles.codikash_app">
                   <img src={capa14} alt="ios" className="w-[100%] " />
                 </a>
               </div>
